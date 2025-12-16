@@ -42,6 +42,7 @@ This approach helps identify **extreme values** while limiting **false positives
 ##  Key Insights
 
 ### Global Overview
+![Global KPIs](Images/Main_KPIs.png)
 
 * **6,400+ transactions** analyzed, representing a total value of **18 million**
 * **38% of subscribers** exhibit at least one risk signal
@@ -50,6 +51,7 @@ This approach helps identify **extreme values** while limiting **false positives
 ---
 
 ### Indicator 1 — High Transaction Frequency
+![High Transaction Frequency](Images/Indicator_1.png)
 
 * **212 subscribers** perform more than **20 transactions within 24 hours**
 * This represents **14.36%** of the customer base
@@ -58,6 +60,7 @@ This approach helps identify **extreme values** while limiting **false positives
 ---
 
 ### Indicator 2 — High-Value Night Transactions
+![High-Value Night Transactions](Images/Indicator_2.png)
 
 * **35 high-value transactions** detected during night hours
 * These represent only **2.16% of night transactions**, yet account for **≈ 430,000** in value
@@ -66,6 +69,7 @@ This approach helps identify **extreme values** while limiting **false positives
 ---
 
 ### Indicator 3 — Multiple Device Usage
+![Multiple Device Usage](Images/Indicator_3.png)
 
 * **393 subscribers** use **more than 5 different devices**
 * This corresponds to **26.63% of the customer base**
@@ -74,6 +78,7 @@ This approach helps identify **extreme values** while limiting **false positives
 ---
 
 ### Indicator 4 — Atypical Amounts (Outliers)
+![Atypical Amounts](Images/Indicator_4.png)
 
 * Transactions exceeding the statistical threshold (**≈ 9,222**) are rare
 * Despite their low frequency, they represent **high financial risk exposure**
@@ -165,31 +170,32 @@ Cette méthode permet d’identifier des montants extrêmes tout en **limitant l
 ##  Insights clés
 
 ###  Vue globale
+![KPIs Globaux](Images/KPIs_globaux.png)   
 
 * **6 400+ transactions** analysées pour un volume total de **18 millions**
 * **38 % des abonnés** présentent au moins un signal de risque
 * Le **canal agent** concentre la majorité des transactions, en volume comme en valeur
 
 ###  Indicateur 1 — Fréquence élevée de transactions
-
+![Fréquence élevée de transactions](Images/Indicateur_1.png)
 * **212 abonnés** effectuent plus de **20 transactions en 24h**
 * Ils représentent **14,36 %** de la base clients
 * Une minorité présente une activité nettement supérieure à la normale
 
 ###  Indicateur 2 — Transactions importantes réalisées la nuit
-
+![Transactions importantes réalisées la nuit](Images/Indicateur_2.png)
 * **35 transactions nocturnes à montant élevé**
 * Elles représentent **2,16 %** des transactions nocturnes mais **≈ 430 000** en valeur
 * Majoritairement observées via le **canal agent**
 
-###  Indicateur 3 — Utilisation de plusieurs appareils
-
+###  Indicateur 3 — Utilisation de plusieurs appareils par un même abonné
+![Utilisation de plusieurs appareils par un même abonné](Images/Indicateur_3.png)
 * **393 abonnés** utilisent plus de **5 appareils**
 * Soit **26,63 %** de la base clients
 * Peut indiquer un **partage de compte ou une usurpation**
 
 ###  Indicateur 4 — Montants atypiques (outliers)
-
+![Montants atypiques](Images/Indicateur_4.png)
 * Les transactions au-dessus du seuil (**≈ 9 222**) sont rares
 * Elles concentrent néanmoins un **risque financier élevé**
 
